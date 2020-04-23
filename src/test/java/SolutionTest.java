@@ -73,9 +73,9 @@ public class SolutionTest {
         private String expectedResult;
         private List<String> givenArgument;
 
-        public TestContainer(String name, String expectedString, List<String> given) {
+        public TestContainer(String name, String expectedResult, List<String> given) {
             this.name = name;
-            this.expectedResult = expectedString;
+            this.expectedResult = expectedResult;
             this.givenArgument = given;
         }
     }
